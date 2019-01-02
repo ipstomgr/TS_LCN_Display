@@ -1,0 +1,50 @@
+{
+	"elements":
+	[
+    { "name": "LCNDisplayId",   "type": "SelectInstance",    "caption": "LCNDisplayId"},  
+    { "name": "Trigger",        "type": "SelectVariable",    "caption": "Einschalterreignis" },
+    { "name": "UmschaltId",     "type": "SelectVariable",    "caption": "Zeilen Umschaltung" },
+    { "name": "LCNDisplayLine1","type": "NumberSpinner",     "caption": "ZeilenNr1" },
+    { "name": "LCNDisplayLine2","type": "NumberSpinner",     "caption": "ZeilenNr2" },
+    { "name": "Var1",        "type": "SelectVariable",    "caption": "Var1 Zeile1" },
+		{ "name": "Var1P",       "type": "ValidationTextBox", "caption": "Var1 Prefix" },
+		{ "name": "Var1S",       "type": "ValidationTextBox", "caption": "Var1 Sufix" },
+    { "name": "Var2",        "type": "SelectVariable",    "caption": "Var2 Zeile1" },
+ 		{ "name": "Var2P",       "type": "ValidationTextBox", "caption": "Var2 Prefix" },
+		{ "name": "Var2S",       "type": "ValidationTextBox", "caption": "Var2 Sufix" },
+    { "name": "Var3",        "type": "SelectVariable",    "caption": "Var3 Zeile1" },
+		{ "name": "Var3P",       "type": "ValidationTextBox", "caption": "Var3 Prefix" },
+		{ "name": "Var3S",       "type": "ValidationTextBox", "caption": "Var3 Sufix" },
+    { "name": "Var4",        "type": "SelectVariable",    "caption": "Var4 Zeile2" },
+		{ "name": "Var4P",       "type": "ValidationTextBox", "caption": "Var4 Prefix" },
+		{ "name": "Var4S",       "type": "ValidationTextBox", "caption": "Var4 Sufix" },
+    { "name": "Var5",        "type": "SelectVariable",    "caption": "Var5 Zeile2" },
+		{ "name": "Var5P",       "type": "ValidationTextBox", "caption": "Var5 Prefix" },
+		{ "name": "Var5S",       "type": "ValidationTextBox", "caption": "Var5 Sufix" },
+    { "name": "Var6",        "type": "SelectVariable",    "caption": "Var6 Zeile2" },
+		{ "name": "Var6P",       "type": "ValidationTextBox", "caption": "Var6 Prefix" },
+		{ "name": "Var6S",       "type": "ValidationTextBox", "caption": "Var6 Sufix" },
+
+    { "name": "Var11",        "type": "SelectVariable",    "caption": "Var11 Zeile1" },
+		{ "name": "Var11P",       "type": "ValidationTextBox", "caption": "Var11Prefix" },
+		{ "name": "Var11S",       "type": "ValidationTextBox", "caption": "Var11 Sufix" },
+    { "name": "Var12",        "type": "SelectVariable",    "caption": "Var12 Zeile1" },
+		{ "name": "Var12P",       "type": "ValidationTextBox", "caption": "Var12 Prefix" },
+		{ "name": "Var12S",       "type": "ValidationTextBox", "caption": "Var12 Sufix" },
+    { "name": "Var13",        "type": "SelectVariable",    "caption": "Var13 Zeile1" },
+		{ "name": "Var13P",       "type": "ValidationTextBox", "caption": "Var13 Prefix" },
+		{ "name": "Var13S",       "type": "ValidationTextBox", "caption": "Var13 Sufix" },
+    { "name": "Var14",        "type": "SelectVariable",    "caption": "Var14 Zeile2" },
+		{ "name": "Var14P",       "type": "ValidationTextBox", "caption": "Var14 Prefix" },
+		{ "name": "Var14S",       "type": "ValidationTextBox", "caption": "Var14 Sufix" },
+    { "name": "Var15",        "type": "SelectVariable",    "caption": "Var15 Zeile2" },
+		{ "name": "Var15P",       "type": "ValidationTextBox", "caption": "Var15 Prefix" },
+		{ "name": "Var15S",       "type": "ValidationTextBox", "caption": "Var15 Sufix" },
+    { "name": "Var16",        "type": "SelectVariable",    "caption": "Var16 Zeile2" },
+		{ "name": "Var16P",       "type": "ValidationTextBox", "caption": "Var16 Prefix" },
+		{ "name": "Var16S",       "type": "ValidationTextBox", "caption": "Var16 Sufix" }
+	],
+	"actions":
+	[
+	]	
+}

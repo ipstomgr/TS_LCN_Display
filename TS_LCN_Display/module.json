@@ -1,0 +1,14 @@
+{
+	"id": "{6649ee54-471b-11e5-a151-feff819cdc9f}",
+	"name": "TS_LCN_Display",
+	"type": 3,
+	"vendor": "",
+	"aliases": 
+	[
+		"TS_LCN_Display"
+	],
+	"parentRequirements": [],
+	"childRequirements": [],
+	"implemented": [],
+	"prefix": ""
+}
