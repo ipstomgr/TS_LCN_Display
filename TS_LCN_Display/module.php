@@ -1,4 +1,4 @@
-<?
+<?php
 class TS_LCN_Display extends IPSModule
 {
     
@@ -74,7 +74,7 @@ class TS_LCN_Display extends IPSModule
 
          
         // Start add scripts 
-        $skript = '<?
+        $skript = '<?php
 $LCNDisplay_id = IPS_GetProperty(IPS_GetParent($_IPS["SELF"]), "LCNDisplayId");
 $LCNDisplayLine1_id = IPS_GetProperty(IPS_GetParent($_IPS["SELF"]), "LCNDisplayLine1");
 $LCNDisplayLine2_id = IPS_GetProperty(IPS_GetParent($_IPS["SELF"]), "LCNDisplayLine2");
@@ -207,7 +207,7 @@ if ($zeile != "")
 		LCN_SendCommand($LCNDisplay_id ,"GT","DT".$dsp."4".$text.chr(10));
 	}
 }
-?>';
+';
   $skriptID = $this->RegisterScript("_lcn_display", "_lcn_display", $skript, 99); 
         IPS_SetHidden($skriptID,true);
         $Trigger_id =$this->ReadPropertyInteger("Trigger");
@@ -250,4 +250,4 @@ if ($zeile != "")
     }	
 
 }
-?>
+
